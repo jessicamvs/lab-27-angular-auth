@@ -1,11 +1,16 @@
-@import "../theme/_vars";
-
-html, body {
-  width: 436px;
-  margin: auto;
+@import "../theme/_vars.scss";
+html {
+  font-size: 1em;
   font-family: $font-primary;
 }
 
-main {
-  background-color: $color-primary;
+img {
+  max-width: 100%
+}
+
+@media only screen and (max-width: 580px) {
+  html {
+    background-color: $color-primary;
+  }
+
 }
